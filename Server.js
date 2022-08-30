@@ -1,7 +1,9 @@
+// use express js
 const express = require('express');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+// setting routes
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
@@ -18,3 +20,6 @@ app.use('/', htmlRoutes);
 app.listen(PORT, () => {
   console.log(`Server outputting on port ${PORT}!`);
 });
+
+
+// boilerplate express server js
