@@ -41,15 +41,15 @@ I wrote the back-end `JavaScript`, connected the front-end, and then deployed th
 
 
 ## Screenshots
-|<center><b>homepage</b>|<center><b>notes page with no notes</b>|
+|<center><b>Homepage</b>|<center><b>Notes page with no notes</b>|
 -|-
 ![][3]|![][4]
-|<center><b>notes page with one stored note and creating a new one</b>|<center><b>notes page with two stored notes. viewing a stored note</b>|
+|<center><b>Notes page with one stored note and creating a new one</b>|<center><b>Notes page with two stored notes. viewing a stored note</b>|
 ![][5]|![][6]
 
 ___
 <!-- references and links -->
-[1]:https://young-harbor-02832.herokuapp.com
+[1]:https://
 [2]:https://github.com/DKILGORE79/week-11-note-taker
 [3]:/assets/images/1.png
 [4]:/assets/images/2.png
