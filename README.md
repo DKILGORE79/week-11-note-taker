@@ -51,10 +51,10 @@ ___
 <!-- references and links -->
 [1]:https://immense-bastion-33535.herokuapp.com/
 [2]:https://github.com/DKILGORE79/week-11-note-taker
-[3]:/assets/images/1.png
-[4]:/assets/images/2.png
-[5]:/assets/images/3.png
-[6]:/assets/images/4.png
+[3]:/images/1.png
+[4]:/images/2.png
+[5]:/images/3.png
+[6]:/images/4.png
 
 
 

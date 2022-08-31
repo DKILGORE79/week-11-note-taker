@@ -1,24 +1,17 @@
-// use express js
 const express = require('express');
-
+const routes = require('./routes')
 const PORT = process.env.PORT || 3001;
 const app = express();
-// setting routes
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
 
 
-app.use(express.urlencoded({ extended: true }));
+// Middleware for parsing JSON 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 
+app.use(routes);
 
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
-
-app.listen(PORT, () => {
-  console.log(`Server outputting on port ${PORT}!`);
-});
-
-
+app.listen(PORT, () =>
+  console.log(`App listening at http://localhost:${PORT} 🚀`)
+);
