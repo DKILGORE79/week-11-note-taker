@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3001;
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
-// parse POST data / Json and URLencoded
+// parse POST data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
